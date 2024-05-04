@@ -23,26 +23,6 @@ node* CreateHeaderP() {
 	header->next = header;//points to itself by default
 	return header;
 }
-//insert at end of polynomial. SortedInsert recommended!
-void Insert(node* p, int c, int exp) {
-	node* newnode = (node*)malloc(sizeof(node));
-	newnode->c = c;
-	newnode->exp = exp;
-	if (p->next == p) {
-		newnode->next = p;
-		p->next = newnode;
-	}
-	else {		
-		node* current = p->next;
-		node* prev = p;
-		while (current->exp != -1) {
-			prev = current;
-			current = current->next;
-		}
-		prev->next = newnode;
-		newnode->next = p;
-	}
-}
 //inserts new element into polynomial. Polynomial always stays sorted.
 void SortedInsert(node* p, int c, int exp) {
 	if (p->next == p) {
