@@ -1,12 +1,3 @@
-/*
-=============================================================================================
-PROJECT: circular doubly linked list with header
-FILE: Circular_Header_Doubly_LinkedList_.c
-NOTE: more information in README.md
-DATE:   4.5.2024
-AUTHOR: Pavle Totic
-=============================================================================================
-*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
