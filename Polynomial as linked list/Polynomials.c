@@ -1,12 +1,3 @@
-/*
-=============================================================================================
-PROJECT: Polynomials as linked list and operations
-FILE: Polynomials.c
-NOTE: more information in README.md
-DATE:   4.5.2024
-AUTHOR: Pavle Totic
-=============================================================================================
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
